@@ -61,7 +61,7 @@ void handlePortal() {
   } else {
     server.send(200, "text/html", 
     "<html><body>"
-    "<h1>Thiết lập Wifi</h1>"
+    "<h1>Thiet lap Wifi va Server URL</h1>"
     "<form action='/' method='post'>"
     "SSID: <input type='text' name='ssid'><br>"
     "Password: <input type='password' name='password'><br>"
