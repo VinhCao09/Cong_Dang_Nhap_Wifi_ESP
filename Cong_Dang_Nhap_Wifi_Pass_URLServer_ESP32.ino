@@ -9,7 +9,7 @@ WebServer server(80);
 struct settings {
   char ssid[30];
   char password[30];
-  char serverUrl[50]; // Thêm trường server URL
+  char serverUrl[50]; 
 } user_wifi = {};
 
 void setup() {
